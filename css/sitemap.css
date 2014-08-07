@@ -116,11 +116,11 @@ ol, ul {
 	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
-	color: black;	
-	background: #c3eafb;
+	color: #FFFFFF;	
+	background: #4F1F26;
 }
 #primaryNav li a:hover {
-	background-color: #D5F0FC;
+	background-color: #61353C;
 }
 #primaryNav li:last-child {
 	background: url('../images/L1-right.png') center top no-repeat;
@@ -136,7 +136,7 @@ a:visited:before {
 }
 #primaryNav li a:link:before,
 #primaryNav li a:visited:before {
-	color: #78a9c0;
+	color: #CABCBE;
 }
 
 /* --------	Second Level --------- */
@@ -149,10 +149,10 @@ a:visited:before {
 	background: url('../images/vertical-line.png') center bottom repeat-y;
 }
 #primaryNav li li a {
-	background-color: #cee3ac;
+	background-color: #8C734A;
 }
 #primaryNav li li a:hover {
-	background-color: #DDEBC5;
+	background-color: #98815C;
 }
 #primaryNav li li:first-child {
 	padding-top: 30px;
@@ -162,7 +162,7 @@ a:visited:before {
 }
 #primaryNav li li a:link:before,
 #primaryNav li li a:visited:before {
-	color: #8faf5c;
+	color: #DCD5C9;
 }
 
 /* --------	Third Level --------- */
@@ -179,14 +179,14 @@ a:visited:before {
 	padding: 5px 0;
 }
 #primaryNav li li li a {
-	background-color: #fff7aa;
+	background-color: #00A08E;
 	font-size: 12px;
 	padding: 12px 0;
 	width: 85%;
 	float: right;
 }
 #primaryNav li li li a:hover {
-	background-color: #FFF9BB;
+	background-color: #19AA99;
 }
 #primaryNav li li li:first-child {
 	padding: 15px 0 5px 0;
@@ -197,7 +197,7 @@ a:visited:before {
 }
 #primaryNav li li li a:link:before,
 #primaryNav li li li a:visited:before {
-	color: #ccae14;
+	color: #B2E2DD;
 	font-size: 9px;
 }
 
@@ -223,14 +223,14 @@ a:visited:before {
 	font-weight: bold;
 	text-align: center;
 	color: #EEEEEE;
-	background: #555555;
+	background: #403F3F;
 }
 #utilityNav li a:hover {
-	background-color: #777777;
+	background-color: #535252;
 }
 #utilityNav li a:link:before,
 #utilityNav li a:visited:before {
-	color: #AAAAAA;
+	color: #C6C5C5;
 	font-size: 9px;
 	margin-bottom: 3px;
 }
