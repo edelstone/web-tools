@@ -55,7 +55,7 @@ body {
 	background: white;
 	color: black;
 	padding: 40px;
-	font-family: Gotham, Helvetica, Arial, sans-serif;
+	font-family: 'Univers W01', Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	line-height: 1;
 }
@@ -76,7 +76,7 @@ h2 {
 }
 h3 {
 	font-size: 12px;
-	color: #777777;
+	color: #595959;
 	margin: 0 0 20px 0;
 }
 a {
@@ -84,6 +84,13 @@ a {
 }
 ol, ul {
 	list-style: none;
+}
+h2 a {
+	color: inherit;
+	text-decoration: underline;
+}
+h2 a:hover {
+	text-decoration: none;
 }
 
 
@@ -114,20 +121,22 @@ ol, ul {
 }
 #primaryNav li a {
 	margin: 0 20px 0 0;
-	padding: 15px 0;
+	padding: 18px 15px;
 	display: block;
 	font-size: 14px;
+	line-height: 1.25;
 	font-weight: bold;
 	text-align: center;
 	color: #FFFFFF;	
-	background: #4F1F26;
+	background: #501214;
 }
 #primaryNav li a:hover {
-	background-color: #61353C;
+	opacity: .9
 }
 #primaryNav li:last-child {
 	background: url('../images/L1-right.png') center top no-repeat;
 }
+/*
 a:link:before,
 a:visited:before {
 	content: " "attr(href)" ";
@@ -137,6 +146,7 @@ a:visited:before {
 	margin-bottom: 5px;
 	word-wrap: break-word;
 }
+*/
 #primaryNav li a:link:before,
 #primaryNav li a:visited:before {
 	color: #CABCBE;
@@ -152,10 +162,10 @@ a:visited:before {
 	background: url('../images/vertical-line.png') center bottom repeat-y;
 }
 #primaryNav li li a {
-	background-color: #8C734A;
+	background-color: #6a5638;
 }
 #primaryNav li li a:hover {
-	background-color: #98815C;
+	opacity: .9
 }
 #primaryNav li li:first-child {
 	padding-top: 30px;
@@ -182,14 +192,14 @@ a:visited:before {
 	padding: 5px 0;
 }
 #primaryNav li li li a {
-	background-color: #00A08E;
+	background-color: #005481;
 	font-size: 12px;
-	padding: 12px 0;
-	width: 85%;
+	padding: 12px 8px;
+	width: 75%;
 	float: right;
 }
 #primaryNav li li li a:hover {
-	background-color: #19AA99;
+	opacity: .9;
 }
 #primaryNav li li li:first-child {
 	padding: 15px 0 5px 0;
@@ -223,13 +233,14 @@ a:visited:before {
 	padding: 10px 15px;
 	display: block;
 	font-size: 12px;
+	line-height: 1.25;
 	font-weight: bold;
 	text-align: center;
-	color: #EEEEEE;
-	background: #403F3F;
+	color: #fff;
+	background: #363534;
 }
 #utilityNav li a:hover {
-	background-color: #535252;
+	opacity: .9;
 }
 #utilityNav li a:link:before,
 #utilityNav li a:visited:before {
