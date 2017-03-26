@@ -1,0 +1,155 @@
+/* Sandbox CSS */
+
+body {
+	font-family:"Montserrat", "Gotham A", "Gotham B", "Open Sans Regular", "Verdana", "Helvetica", "Arial";
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+	}
+/* Small screens (default) */
+html { font-size: 80%; }
+ 
+/* Medium screens (640px) */
+@media (min-width: 40rem) { 
+  html { font-size: 100%; }
+}
+ 
+/* Large screens (1024px) */
+@media (min-width: 64rem) { 
+  html { font-size: 140%; }
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 0 10px;
+	font-family: Times New Roman, "Adobe Garamond Pro";
+	text-rendering: optimizeLegibility;
+	font-weight: 100;
+	line-height: 1em;
+	}
+
+.center {
+	text-align: center;
+	}
+
+.caps {
+	text-transform: uppercase;
+	}
+
+.light_text {
+	color: #FFFFFF;
+	}
+	
+.slogan {
+	font-family: Times New Roman;
+	font-style: italic;
+	font-weight: 100;
+	margin-top: -20px;
+	}
+	
+.footer {
+	background: -webkit-linear-gradient(top, #4F1F26 0%, #3F191E 100%);
+	background: -o-linear-gradient(top, #4F1F26 0%, #3F191E 100%);
+	background: -ms-linear-gradient(top, #4F1F26 0%, #3F191E 100%);
+	padding: 10px 0;
+	color: #999999;
+	}
+	
+.star {
+	margin: auto;
+	display: block;
+	width: 40%;
+	height: auto;
+	max-width: 256px;
+	margin-bottom: 25px;
+	opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+	}
+
+.star:hover {
+	cursor: pointer;
+	opacity: 1;
+	filter: none;
+	transition: all 0.3s ease-in-out;
+    -webkit-filter: none;
+	}
+	
+.remove_em {
+	font-style: normal;
+	}
+	
+p {
+	font-size: 1em;
+	}
+
+ul {
+	margin: 20px;
+	}
+	
+.button_list li {
+	display: inline-block;
+	min-width: 200px;
+	padding: 15px 20px 12px 20px;
+	margin: 5px;
+	transition: all 0.3s ease-in-out;
+	text-align: left;
+	font-size: .8em;
+	}
+
+.button_list li:hover {
+	cursor: pointer;
+	opacity: .9 !important;
+	background-color: #4F1F26 !important;
+	transition: all 0.3s ease-in-out;
+	}
+	
+.button_list {
+	padding-left: 0;
+	list-style-type: none;
+	text-align: center;
+	}
+		
+.header {
+	height: 100px;
+	}
+	
+.flex_image img {
+	width: 100%;
+	}
+
+.slab {
+	margin: 30px;
+	padding: 10px 30px;
+	}
+	
+.color_1 {
+	color: #FFFFFF;
+	}
+
+.color_2 {
+	background-color: #4F1F26;
+	}
+	
+.color_3 {
+	background-color: #8C734A;
+	}
+	
+.color_4 {
+	color: #000000;
+	}
+	
+@media only screen and (max-width: 50000px) {
+.hover_logo {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	max-width: 500px;
+	background: rgba(140, 115, 74, 0.6);
+	width: 30%;
+	}}
+	
+@media only screen and (max-width: 959px) and (min-width: 0px) {
+.hover_logo {
+visibility: hidden;
+}}
